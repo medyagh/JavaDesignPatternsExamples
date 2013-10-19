@@ -6,7 +6,10 @@ public class Main {
 		IntegerStream I = new IntegerStream();
 		System.out.println(I.next()); // prints 0 on the screen
 		System.out.println(I.next()); // prints 1 on the screen
-
+		System.out.println(I.next()); // prints 2 on the screen
+		System.out.println(I.next()); // prints 3 on the screen
+		System.out.println(I.next()); // prints 4 on the screen
+		
 		WhatAPain w = new WhatAPain(I);
 
 		System.out.println(w.next());
@@ -15,6 +18,12 @@ public class Main {
 		System.out.println(w.next());
 		System.out.println(w.next());
 		System.out.println(w.next());
+		System.out.println(w.next());
+		System.out.println(w.next());
+		System.out.println(w.next());
+		System.out.println(w.next());
+		System.out.println(w.next());
+		
 
 	}
 
