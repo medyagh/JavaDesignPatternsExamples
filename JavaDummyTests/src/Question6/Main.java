@@ -3,6 +3,9 @@ package Question6;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		System.out.println(1e-09);
+		
 		IntegerStream I = new IntegerStream();
 		System.out.println(I.next()); // prints 0 on the screen
 		System.out.println(I.next()); // prints 1 on the screen
