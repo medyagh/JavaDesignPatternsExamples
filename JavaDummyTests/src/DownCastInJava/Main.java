@@ -18,6 +18,11 @@ public class Main {
 		Vehicle v2= new Vehicle();
 		v2.move();
 		Car c2= new Car();
+		
+		
+		c2=(Car) v2;  /// this will give a class cast exception, we can not cast child to parent  
+		//c2.drive();
+		
 		// Wont Work : 
 		//c=v;
 		
